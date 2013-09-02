@@ -22,14 +22,13 @@ img {
   display: block;
   width: 100%;
   max-width: 100%;
-  margin: 0 auto 3em;
+  margin: 0 auto;
 }
 
 .row {
   clear: both;
-  margin: 0 0 3em;
-  padding: 0 0 2em;
-  border-bottom: 1px solid #ddd;
+  margin: 0;
+  padding: 0;
   text-align: center;
   display: table;
   width: 100%;
@@ -43,13 +42,13 @@ img {
   text-align: center;
 }
 
-.row .full img {
-  margin-bottom: 3em;
-}
-
 .row .full p {
   margin: 0 20% 1.5em;
   text-align: left;
+}
+
+.row .full img + p {
+  margin-top: 3em;
 }
 
 .row .half {
