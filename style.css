@@ -1,22 +1,28 @@
 body {
   margin: 0;
   padding: 0;
-  font: 16px/1.6 Georgia, serif;
+  font: 22px/1.6 Georgia, serif;
+  color: #222;
 }
 
 #content {
   margin: 0 20px;
 }
 
-#content p {
+p {
+  color: #888;
   margin: 0 0 1em;
 }
 
-#content img {
+p.photo {
+  max-width: 100%;
+}
+
+img {
   display: block;
   width: 100%;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 3em;
 }
 
 .row {
@@ -27,6 +33,23 @@ body {
   text-align: center;
   display: table;
   width: 100%;
+}
+
+.row h1 {
+  text-align: left;
+}
+
+.row div h1 {
+  text-align: center;
+}
+
+.row .full img {
+  margin-bottom: 3em;
+}
+
+.row .full p {
+  margin: 0 20% 1.5em;
+  text-align: left;
 }
 
 .row .half {
