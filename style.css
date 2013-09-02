@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font: 22px/1.6 "proxima-nova", sans-serif;
+  font: 16px/1.6 "proxima-nova", sans-serif;
   color: #222;
 }
 
@@ -30,6 +30,11 @@ header h1 a {
   margin: 0 30px;
 }
 
+h1 {
+  font-size: 36px;
+  margin: 0 0 1em;
+}
+
 p {
   color: #888;
   margin: 0 0 1em;
@@ -50,7 +55,6 @@ img {
   clear: both;
   margin: 0;
   padding: 0;
-  text-align: center;
   display: table;
   width: 100%;
 }
@@ -59,8 +63,8 @@ img {
   text-align: left;
 }
 
-.row div h1 {
-  text-align: center;
+.row p.longish {
+  text-align: left;
 }
 
 .row .full {
@@ -69,6 +73,7 @@ img {
 }
 
 .row .full p {
+  font-size: 24px;
   margin: 0 15% 1.5em 20%;
   text-align: left;
 }
@@ -93,6 +98,17 @@ img {
   display: table-cell;
   vertical-align: middle;
   width: 33%;
+}
+
+.row .half h1,
+.row .third h1 {
+  font-size: 16px;
+  margin: 0 15%;
+}
+
+.row .half p,
+.row .third p {
+  margin: 0 15%;
 }
 
 .cropper {
