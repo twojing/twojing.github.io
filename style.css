@@ -40,10 +40,6 @@ p {
   margin: 0 0 1em;
 }
 
-p.photo {
-  max-width: 100%;
-}
-
 img {
   display: block;
   width: 100%;
@@ -60,10 +56,6 @@ img {
 }
 
 .row h1 {
-  text-align: left;
-}
-
-.row p.longish {
   text-align: left;
 }
 
