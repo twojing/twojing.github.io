@@ -6,7 +6,7 @@ body {
 }
 
 #content {
-  margin: 0 20px;
+  margin: 0 30px;
 }
 
 p {
@@ -42,6 +42,11 @@ img {
   text-align: center;
 }
 
+.row .full {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
 .row .full p {
   margin: 0 15% 1.5em 20%;
   text-align: left;
@@ -67,6 +72,11 @@ img {
   display: table-cell;
   vertical-align: middle;
   width: 33%;
+}
+
+.cropper {
+  height: 100%;
+  overflow: hidden;
 }
 
 .overlapper {
