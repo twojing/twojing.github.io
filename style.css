@@ -1,5 +1,42 @@
 body {
   margin: 0;
   padding: 0;
-  font: 16px/1.6 Helvetica Neue, Arial, sans-serif;
+  font: 16px/1.6 Georgia, serif;
+}
+
+#content {
+  margin: 0 20px;
+}
+
+#content p {
+  margin: 0 0 1em;
+}
+
+#content img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  clear: both;
+  margin: 0 0 3em;
+  padding: 0 0 2em;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+
+.row .half {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.row .third {
+  display: table-cell;
+  vertical-align: middle;
+  width: 33%;
 }
