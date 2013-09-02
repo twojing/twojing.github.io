@@ -47,8 +47,14 @@ img {
   text-align: left;
 }
 
-.row .full img + p {
+.row .full img + p,
+.row .full p:first-child,
+.row .full p:first-of-type {
   margin-top: 3em;
+}
+
+.row .full p:last-child {
+  margin-bottom: 3em;
 }
 
 .row .half {
