@@ -14,6 +14,10 @@ header {
   background: rgba(255, 255, 255, 0.9);
 }
 
+body.make-room header {
+  margin: 0;
+}
+
 header h1 {
   margin: 0;
 }
