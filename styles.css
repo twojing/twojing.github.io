@@ -71,7 +71,7 @@
   margin: 0 0 1em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .ma0-ns { margin: 0; }
 
   .flex-ns {
